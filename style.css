@@ -1,11 +1,75 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Head {
+padding-top: 24px;
+background-color: #1F2937;
+flex-direction: column;
 }
 
-.Information, .Quotes, .SignUpSection, .Footer {
+.Head, .Information, .Quotes, .SignUpSection, .Footer {
 display: flex;
+padding-left: 160px;
+padding-right: 160px;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.Header div {
+    color:  #F9FaF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Header ul, .Hero .Subtext{
+color: #E5E7EB;
+font-size: 18px;
+}
+
+.Header ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.Hero {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+
+.Hero .Text{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.Hero .Title {
+    color: #F9FaF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.Hero .Button {
+    padding: 6px 24px;
+    background-color: #3882F6;
+    color: #F9FaF8;
+    width: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.Hero img{
+    max-width: 300px;
 }
