@@ -157,3 +157,11 @@ font-size: 18px;
    border-radius: 8px; 
    font-weight: 900;
 }
+
+.Footer {
+    padding: 30px;
+    background-color: #1F2937;
+    color: #F9FaF8;
+    justify-content: center;
+}
+
