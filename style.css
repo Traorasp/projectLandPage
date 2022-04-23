@@ -73,3 +73,33 @@ font-size: 18px;
 .Hero img{
     max-width: 300px;
 }
+
+.Information {
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.Information .Title{
+    font-size: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.Information .Images{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.Images .Content {
+    width: 150px;
+    text-align: center;
+    color: #666769;
+}
+
+.Images img {
+    width: 160px;
+    height: 160px;
+}
