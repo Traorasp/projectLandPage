@@ -107,7 +107,7 @@ font-size: 18px;
 .Quotes {
     justify-content: center;
     align-items: center;
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: #E5E7EB;
     flex-direction: column;
 }
@@ -127,4 +127,33 @@ font-size: 18px;
     align-self: flex-end;
     margin-right: 580px;
     font-weight: bold;
+}
+
+.SignUpSection {
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.SignUpSection .SignUp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    color: #F9FaF8;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+.CallToAction {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.SignUp .Button {
+   padding: 8px 24px;
+   border: 2px solid #F9FaF8;
+   border-radius: 8px; 
+   font-weight: 900;
 }
